@@ -6,12 +6,12 @@ import Link from "next/link"
 export function DistributionHero() {
   return (
     <section className="relative bg-gradient-to-b from-white to-secondary/30 pt-32 pb-20 lg:pt-40 lg:pb-32">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-10 sm:px-12 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div className="space-y-8">
+          <div className="space-y-8 text-center lg:text-left">
             <div className="space-y-4">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-4 justify-center lg:justify-start">
                 <Badge className="bg-primary/10 text-primary border-primary/20">Partnership Program</Badge>
                 <Badge className="bg-navy/10 text-navy border-navy/20">Growing Market</Badge>
               </div>
@@ -22,14 +22,14 @@ export function DistributionHero() {
                 <span className="text-primary">InvisiRelief™</span>
               </h1>
 
-              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-lg">
+              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0">
                 Join our growing network of stockists and distributors bringing innovative pain relief solutions to
                 customers across Australia.
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
+            <div className="flex flex-col gap-4 justify-center lg:justify-start">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-full lg:w-auto">
                 <Download className="mr-2 h-5 w-5" />
                 Download Partnership Pack
               </Button>
@@ -37,7 +37,7 @@ export function DistributionHero() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent"
+                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-full lg:w-auto"
                 >
                   Contact Us
                 </Button>
@@ -45,7 +45,7 @@ export function DistributionHero() {
             </div>
 
             {/* Key stats */}
-            <div className="flex items-center gap-8 pt-4">
+            <div className="flex items-center gap-8 pt-4 justify-center lg:justify-start">
               <div className="text-center">
                 <div className="text-2xl font-bold text-navy">40%+</div>
                 <div className="text-sm text-muted-foreground">Gross Margins</div>

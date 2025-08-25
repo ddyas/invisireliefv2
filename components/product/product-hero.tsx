@@ -8,7 +8,7 @@ export function ProductHero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div className="space-y-8">
+          <div className="space-y-8 text-center lg:text-left">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-navy leading-tight">
                 InvisiRelief™
@@ -16,14 +16,14 @@ export function ProductHero() {
                 <span className="text-primary">Product Information</span>
               </h1>
 
-              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-lg">
+              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0">
                 Everything you need to know about our innovative medicated chewing gum for discreet, fast-acting
                 intraoral pain relief.
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-full lg:w-auto">
                 <Download className="mr-2 h-5 w-5" />
                 Download Product Guide
               </Button>
@@ -31,7 +31,7 @@ export function ProductHero() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent"
+                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-full lg:w-auto"
                 >
                   Contact Us
                 </Button>

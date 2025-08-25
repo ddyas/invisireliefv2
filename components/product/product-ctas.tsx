@@ -31,7 +31,7 @@ export function ProductCTAs() {
 
               <div className="space-y-3">
                 <Link href="/contact" scroll={true}>
-                  <Button className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white">
+                  <Button className="w-full lg:w-auto bg-primary hover:bg-primary/90 text-white">
                     Contact Us
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
@@ -39,7 +39,7 @@ export function ProductCTAs() {
                 <Link href="/contact" scroll={true}>
                   <Button
                     variant="outline"
-                    className="w-full sm:w-auto border-primary text-primary hover:bg-primary hover:text-white bg-transparent"
+                    className="w-full lg:w-auto border-primary text-primary hover:bg-primary hover:text-white bg-transparent"
                   >
                     <Phone className="mr-2 h-4 w-4" />
                     Schedule a Call
@@ -71,7 +71,7 @@ export function ProductCTAs() {
 
               <div className="space-y-3">
                 <Link href="/work-with-us" scroll={true}>
-                  <Button className="w-full sm:w-auto bg-navy hover:bg-navy/90 text-white">
+                  <Button className="w-full lg:w-auto bg-navy hover:bg-navy/90 text-white">
                     Work With Us
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
@@ -79,7 +79,7 @@ export function ProductCTAs() {
                 <Link href="/work-with-us" scroll={true}>
                   <Button
                     variant="outline"
-                    className="w-full sm:w-auto border-navy text-navy hover:bg-navy hover:text-white bg-transparent"
+                    className="w-full lg:w-auto border-navy text-navy hover:bg-navy hover:text-white bg-transparent"
                   >
                     Download Partnership Info
                   </Button>

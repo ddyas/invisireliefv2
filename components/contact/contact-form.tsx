@@ -82,7 +82,7 @@ export function ContactForm() {
   }
 
   return (
-    <div className="container mx-auto px-8 sm:px-10 lg:px-4">
+    <div className="container mx-auto px-10 sm:px-12 lg:px-4">
       <Card className="border-0 clinical-shadow-lg">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-navy text-center sm:text-left">Send us a Message</CardTitle>
@@ -173,7 +173,7 @@ export function ContactForm() {
             <Button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-primary hover:bg-primary/90 text-white"
+              className="w-full lg:w-auto bg-primary hover:bg-primary/90 text-white"
               size="lg"
             >
               {isLoading ? (

@@ -29,7 +29,7 @@ export function Footer() {
   return (
     <footer className="bg-black text-white">
       {/* Main footer content */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="container mx-auto px-10 sm:px-12 lg:px-8 py-16">
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Brand section */}
           <div className="lg:col-span-2 space-y-6">
@@ -73,7 +73,9 @@ export function Footer() {
                   placeholder="Enter your email"
                   className="bg-white/10 border-white/20 text-white placeholder:text-gray-400 text-sm w-72"
                 />
-                <Button className="bg-primary hover:bg-primary/90 text-white text-sm px-4">Subscribe</Button>
+                <Button className="bg-primary hover:bg-primary/90 text-white text-sm px-4 w-full lg:w-auto">
+                  Subscribe
+                </Button>
               </div>
             </div>
           </div>

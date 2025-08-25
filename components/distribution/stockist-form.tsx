@@ -103,7 +103,7 @@ export function StockistForm() {
 
   return (
     <section className="py-20 lg:py-32 bg-secondary/30">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-10 sm:px-12 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-5xl font-bold text-navy mb-6">Apply for Partnership</h2>
@@ -348,7 +348,7 @@ export function StockistForm() {
                 <Button
                   type="submit"
                   disabled={isLoading}
-                  className="w-full bg-primary hover:bg-primary/90 text-white"
+                  className="w-full lg:w-auto bg-primary hover:bg-primary/90 text-white"
                   size="lg"
                 >
                   {isLoading ? (

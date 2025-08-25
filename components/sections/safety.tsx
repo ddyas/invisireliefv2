@@ -14,7 +14,7 @@ const safetyHighlights = [
 export function Safety() {
   return (
     <section className="py-20 lg:py-32 bg-gradient-to-br from-slate-50 to-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-10 sm:px-12 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-navy mb-6">
             Safety & Quality
@@ -75,12 +75,15 @@ export function Safety() {
         <div className="text-center mt-16">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/product-information" scroll={true}>
-              <Button variant="outline" className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent">
+              <Button
+                variant="outline"
+                className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-full lg:w-auto"
+              >
                 View Full Product Information
                 <ExternalLink className="ml-2 h-4 w-4" />
               </Button>
             </Link>
-            <Button variant="ghost" className="text-primary hover:bg-primary/10">
+            <Button variant="ghost" className="text-primary hover:bg-primary/10 w-full lg:w-auto">
               Download Product Details
             </Button>
           </div>
