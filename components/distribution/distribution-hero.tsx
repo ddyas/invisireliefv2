@@ -9,7 +9,7 @@ export function DistributionHero() {
       <div className="container mx-auto px-6 sm:px-8 lg:px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div className="space-y-8 text-center lg:text-left mobile-hero-content">
+          <div className="space-y-8 text-center lg:text-left">
             <div className="space-y-4">
               <div className="flex items-center gap-3 mb-4 justify-center lg:justify-start">
                 <Badge className="bg-primary/10 text-primary border-primary/20">Partnership Program</Badge>
@@ -28,8 +28,9 @@ export function DistributionHero() {
               </p>
             </div>
 
-            <div className="mobile-hero-buttons flex flex-col gap-3 items-center lg:flex-row lg:gap-4 lg:justify-start partner-buttons">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-64 lg:w-auto mobile-button">
+            {/* Buttons */}
+            <div className="flex flex-col gap-3 items-center lg:flex-row lg:gap-4 lg:justify-start">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-64 lg:w-auto">
                 <Download className="mr-2 h-5 w-5" />
                 Download Partnership Pack
               </Button>
@@ -37,7 +38,7 @@ export function DistributionHero() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-64 lg:w-auto mobile-button"
+                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-64 lg:w-auto"
                 >
                   Contact Us
                 </Button>
