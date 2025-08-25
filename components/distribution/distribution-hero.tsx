@@ -30,7 +30,7 @@ export function DistributionHero() {
 
             {/* Buttons */}
             <div className="flex flex-col gap-3 items-center lg:flex-row lg:gap-4 lg:justify-start">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-64 lg:w-auto">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-full lg:w-auto">
                 <Download className="mr-2 h-5 w-5" />
                 Download Partnership Pack
               </Button>
@@ -38,7 +38,7 @@ export function DistributionHero() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-64 lg:w-auto"
+                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-full lg:w-auto"
                 >
                   Contact Us
                 </Button>
