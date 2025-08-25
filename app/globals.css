@@ -186,61 +186,34 @@
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   }
 
-  /* Force mobile button width override with more aggressive targeting */
+  /* Simplified mobile button overrides with consistent 16rem width and better Safari compatibility */
   @media (max-width: 1023px) {
-    .mobile-button-override,
-    .mobile-button-override * {
-      width: 16rem !important;
-      min-width: 16rem !important;
-      max-width: 16rem !important;
-      display: flex !important;
-      flex: none !important;
-    }
-
-    /* Target all buttons in hero sections specifically */
     .hero-buttons button,
     .hero-buttons a,
-    .hero-buttons .button {
-      width: 16rem !important;
-      min-width: 16rem !important;
-      max-width: 16rem !important;
-      display: flex !important;
-      flex: none !important;
-      justify-content: center !important;
-    }
-
-    /* Strengthening CTA section button overrides with more specific selectors */
-    .cta-buttons button,
-    .cta-buttons a,
-    .cta-buttons .button,
-    .cta-buttons [role="button"],
-    section .cta-buttons button,
-    section .cta-buttons a {
-      width: 16rem !important;
-      min-width: 16rem !important;
-      max-width: 16rem !important;
-      display: flex !important;
-      flex: none !important;
-      justify-content: center !important;
-      margin: 0 auto !important;
-    }
-
-    /* Adding partner page button overrides with centering */
-    .partner-buttons {
-      justify-content: center !important;
-      align-items: center !important;
-    }
-
     .partner-buttons button,
     .partner-buttons a,
-    .partner-buttons .button {
+    .cta-buttons button,
+    .cta-buttons a {
       width: 16rem !important;
       min-width: 16rem !important;
       max-width: 16rem !important;
       display: flex !important;
-      flex: none !important;
       justify-content: center !important;
-      margin: 0 auto !important;
+      align-items: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      flex-shrink: 0 !important;
+    }
+
+    /* Ensure button containers are properly centered on mobile */
+    .hero-buttons,
+    .partner-buttons,
+    .cta-buttons {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      width: 100% !important;
     }
   }
 }

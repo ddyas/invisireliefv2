@@ -6,7 +6,7 @@ import Link from "next/link"
 export function DistributionHero() {
   return (
     <section className="relative bg-gradient-to-b from-white to-secondary/30 pt-32 pb-20 lg:pt-40 lg:pb-32">
-      <div className="container mx-auto px-10 sm:px-12 lg:px-8">
+      <div className="container mx-auto px-6 sm:px-8 lg:px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-8 text-center lg:text-left">
@@ -28,8 +28,8 @@ export function DistributionHero() {
               </p>
             </div>
 
-            <div className="flex flex-col gap-3 items-center lg:items-start md:flex-row md:gap-4 md:justify-start partner-buttons">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-full lg:w-auto">
+            <div className="flex flex-col gap-3 items-center lg:flex-row lg:gap-4 lg:justify-start partner-buttons">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-64 lg:w-auto">
                 <Download className="mr-2 h-5 w-5" />
                 Download Partnership Pack
               </Button>
@@ -37,7 +37,7 @@ export function DistributionHero() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-full lg:w-auto"
+                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-64 lg:w-auto"
                 >
                   Contact Us
                 </Button>
