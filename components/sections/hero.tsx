@@ -7,7 +7,7 @@ export function Hero() {
     <section className="relative bg-gradient-to-b from-white to-secondary/30 pt-20 pb-20 lg:pt-24 lg:pb-32">
       <div className="container mx-auto px-6 sm:px-8 lg:px-4 max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 text-center lg:text-left">
+          <div className="space-y-8 text-center lg:text-left mobile-hero-content">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-navy leading-tight">
                 Discreet Relief.
@@ -19,9 +19,9 @@ export function Hero() {
               </p>
             </div>
 
-            <div className="flex flex-col gap-3 items-center lg:flex-row lg:gap-4 lg:justify-start hero-buttons">
+            <div className="mobile-hero-buttons flex flex-col gap-3 items-center lg:flex-row lg:gap-4 lg:justify-start hero-buttons">
               <Link href="/product-information" scroll={true}>
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-64 lg:w-auto">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-64 lg:w-auto mobile-button">
                   <ArrowRight className="mr-2 h-5 w-5" />
                   View Product Details
                 </Button>
@@ -30,7 +30,7 @@ export function Hero() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-64 lg:w-auto"
+                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-64 lg:w-auto mobile-button"
                 >
                   Contact Us
                 </Button>

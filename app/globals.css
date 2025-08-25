@@ -186,8 +186,57 @@
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   }
 
-  /* Simplified mobile button overrides with consistent 16rem width and better Safari compatibility */
+  /* Aggressive mobile Safari centering fixes for hero sections */
   @media (max-width: 1023px) {
+    /* Force mobile hero content to be perfectly centered */
+    .mobile-hero-content {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      text-align: center !important;
+      width: 100% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      transform: translateX(0) !important;
+      position: relative !important;
+      left: 0 !important;
+      right: 0 !important;
+    }
+
+    /* Force mobile button containers to be centered */
+    .mobile-hero-buttons {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      width: 100% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      gap: 0.75rem !important;
+    }
+
+    /* Force individual mobile buttons to be uniform and centered */
+    .mobile-button {
+      width: 16rem !important;
+      min-width: 16rem !important;
+      max-width: 16rem !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      flex-shrink: 0 !important;
+      position: relative !important;
+      left: 0 !important;
+      right: 0 !important;
+      transform: translateX(0) !important;
+      -webkit-transform: translateX(0) !important;
+    }
+
+    /* Legacy button overrides for compatibility */
     .hero-buttons button,
     .hero-buttons a,
     .partner-buttons button,
