@@ -28,7 +28,7 @@ export function DistributionHero() {
               </p>
             </div>
 
-            <div className="flex flex-col gap-3 md:flex-row md:gap-4 md:justify-start">
+            <div className="flex flex-col gap-3 md:flex-row md:gap-4 md:justify-start partner-buttons">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-full lg:w-auto">
                 <Download className="mr-2 h-5 w-5" />
                 Download Partnership Pack

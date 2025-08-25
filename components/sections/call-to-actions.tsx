@@ -29,7 +29,7 @@ export function CallToActions() {
                 </p>
               </div>
 
-              <div className="flex flex-col gap-3 md:flex-row md:gap-3 md:justify-center">
+              <div className="flex flex-col gap-3 md:flex-row md:gap-3 md:justify-center cta-buttons">
                 <Button className="w-full lg:w-auto bg-primary hover:bg-primary/90 text-white">
                   Product Information
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -58,7 +58,7 @@ export function CallToActions() {
                 </p>
               </div>
 
-              <div className="flex flex-col gap-3 md:flex-row md:gap-3 md:justify-center">
+              <div className="flex flex-col gap-3 md:flex-row md:gap-3 md:justify-center cta-buttons">
                 <Button className="w-full lg:w-auto bg-navy hover:bg-navy/90 text-white">
                   Work With Us
                   <ArrowRight className="ml-2 h-4 w-4" />
