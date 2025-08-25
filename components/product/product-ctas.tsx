@@ -29,7 +29,7 @@ export function ProductCTAs() {
                 </p>
               </div>
 
-              <div className="space-y-3">
+              <div className="flex flex-col gap-3 md:flex-row md:gap-3 md:justify-center">
                 <Link href="/contact" scroll={true}>
                   <Button className="w-full lg:w-auto bg-primary hover:bg-primary/90 text-white">
                     Contact Us
@@ -69,7 +69,7 @@ export function ProductCTAs() {
                 </p>
               </div>
 
-              <div className="space-y-3">
+              <div className="flex flex-col gap-3 md:flex-row md:gap-3 md:justify-center">
                 <Link href="/work-with-us" scroll={true}>
                   <Button className="w-full lg:w-auto bg-navy hover:bg-navy/90 text-white">
                     Work With Us

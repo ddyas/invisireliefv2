@@ -63,7 +63,7 @@ export function Header() {
                   <Button
                     variant={item.name === "Contact" ? "outline" : "default"}
                     size="sm"
-                    className={item.name === "Contact" ? "border-navy text-navy hover:bg-navy hover:text-white" : ""}
+                    className={`${item.name === "Contact" ? "border-navy text-navy hover:bg-navy hover:text-white" : ""} w-full lg:w-auto`}
                   >
                     {item.name}
                   </Button>

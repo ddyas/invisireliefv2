@@ -79,8 +79,8 @@ export default function PartnershipSuccessPage() {
               </div>
 
               {/* Action buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button asChild className="bg-primary hover:bg-primary/90 text-white">
+              <div className="flex flex-col gap-3 md:flex-row md:gap-4 pt-4">
+                <Button asChild className="bg-primary hover:bg-primary/90 text-white w-full lg:w-auto">
                   <Link href="/" scroll={true}>
                     Return to Homepage
                   </Link>
@@ -88,7 +88,7 @@ export default function PartnershipSuccessPage() {
                 <Button
                   asChild
                   variant="outline"
-                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent"
+                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-full lg:w-auto"
                 >
                   <Link href="/product-information" scroll={true}>
                     Learn More About Our Products

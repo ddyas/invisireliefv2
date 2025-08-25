@@ -169,9 +169,9 @@ export default function ProductInformationPage() {
               Get in touch to learn more about our natural throat relief chewing gum or explore partnership
               opportunities.
             </p>
-            <div className="flex flex-col gap-4 justify-center max-w-md mx-auto">
+            <div className="flex flex-col gap-3 md:flex-row md:gap-4 md:justify-center max-w-md mx-auto">
               <Link href="/contact" scroll={true}>
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 w-full sm:w-auto">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 w-full lg:w-auto">
                   Contact Us
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
@@ -180,7 +180,7 @@ export default function ProductInformationPage() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent px-8 w-full sm:w-auto"
+                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent px-8 w-full lg:w-auto"
                 >
                   Partner With Us
                 </Button>

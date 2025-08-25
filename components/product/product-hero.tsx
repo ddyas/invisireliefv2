@@ -22,7 +22,7 @@ export function ProductHero() {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col gap-3 md:flex-row md:gap-4 md:justify-start">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-full lg:w-auto">
                 <Download className="mr-2 h-5 w-5" />
                 Download Product Guide

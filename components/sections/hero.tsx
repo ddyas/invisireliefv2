@@ -19,7 +19,7 @@ export function Hero() {
               </p>
             </div>
 
-            <div className="flex flex-col gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col gap-3 md:flex-row md:gap-4 md:justify-start">
               <Link href="/product-information" scroll={true}>
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-full lg:w-auto">
                   <ArrowRight className="mr-2 h-5 w-5" />

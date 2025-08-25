@@ -73,7 +73,7 @@ export function Safety() {
         </div>
 
         <div className="text-center mt-16">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col gap-3 md:flex-row md:gap-4 md:justify-center">
             <Link href="/product-information" scroll={true}>
               <Button
                 variant="outline"
