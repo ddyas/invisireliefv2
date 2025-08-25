@@ -19,7 +19,7 @@ export function Hero() {
               </p>
             </div>
 
-            <div className="flex flex-col gap-3 items-center lg:flex-row lg:gap-4 lg:justify-start hero-buttons">
+            <div className="flex flex-col gap-3 items-center lg:items-start lg:flex-row lg:gap-4 lg:justify-start hero-buttons">
               <Link href="/product-information" scroll={true}>
                 <Button
                   size="lg"
