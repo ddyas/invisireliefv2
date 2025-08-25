@@ -82,11 +82,11 @@ export function ContactForm() {
   }
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="container mx-auto px-8 sm:px-10 lg:px-4">
       <Card className="border-0 clinical-shadow-lg">
         <CardHeader>
-          <CardTitle className="text-2xl font-bold text-navy">Send us a Message</CardTitle>
-          <p className="text-muted-foreground">
+          <CardTitle className="text-2xl font-bold text-navy text-center sm:text-left">Send us a Message</CardTitle>
+          <p className="text-muted-foreground text-center sm:text-left">
             Fill out the form below and we'll get back to you as soon as possible.
           </p>
         </CardHeader>

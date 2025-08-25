@@ -28,7 +28,7 @@ export function EmailCapture() {
   if (isSubmitted) {
     return (
       <section className="py-20 lg:py-32 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto px-8 sm:px-10 lg:px-4">
           <Card className="max-w-2xl mx-auto border-0 clinical-shadow">
             <CardContent className="p-8 text-center space-y-6">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
@@ -41,7 +41,7 @@ export function EmailCapture() {
               <Button
                 variant="ghost"
                 onClick={() => setIsSubmitted(false)}
-                className="text-primary hover:bg-primary/10"
+                className="w-full sm:w-auto text-primary hover:bg-primary/10"
               >
                 Subscribe Another Email
               </Button>
@@ -54,7 +54,7 @@ export function EmailCapture() {
 
   return (
     <section className="py-20 lg:py-32 bg-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-8 sm:px-10 lg:px-4">
         <Card className="max-w-2xl mx-auto border-0 clinical-shadow">
           <CardContent className="p-8 text-center space-y-6">
             <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
@@ -83,7 +83,7 @@ export function EmailCapture() {
                 <Button
                   type="submit"
                   disabled={isLoading}
-                  className="bg-primary hover:bg-primary/90 text-white sm:w-auto"
+                  className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white"
                 >
                   {isLoading ? "Subscribing..." : "Notify Me"}
                 </Button>

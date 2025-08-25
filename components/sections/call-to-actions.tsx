@@ -5,7 +5,7 @@ import { Users, Building2, ArrowRight } from "lucide-react"
 export function CallToActions() {
   return (
     <section className="py-20 lg:py-32 bg-secondary/30">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-8 sm:px-10 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-navy mb-6">Ready to Experience InvisiRelief™?</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
@@ -30,13 +30,13 @@ export function CallToActions() {
               </div>
 
               <div className="space-y-3">
-                <Button className="w-full bg-primary hover:bg-primary/90 text-white">
+                <Button className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white">
                   Product Information
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
                 <Button
                   variant="outline"
-                  className="w-full border-navy text-navy hover:bg-navy hover:text-white bg-transparent"
+                  className="w-full sm:w-auto border-navy text-navy hover:bg-navy hover:text-white bg-transparent"
                 >
                   Contact Us
                 </Button>
@@ -59,13 +59,13 @@ export function CallToActions() {
               </div>
 
               <div className="space-y-3">
-                <Button className="w-full bg-navy hover:bg-navy/90 text-white">
+                <Button className="w-full sm:w-auto bg-navy hover:bg-navy/90 text-white">
                   Work With Us
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
                 <Button
                   variant="outline"
-                  className="w-full border-primary text-primary hover:bg-primary hover:text-white bg-transparent"
+                  className="w-full sm:w-auto border-primary text-primary hover:bg-primary hover:text-white bg-transparent"
                 >
                   Download Info Pack
                 </Button>

@@ -4,24 +4,24 @@ import Link from "next/link"
 
 export function Hero() {
   return (
-    <section className="relative bg-gradient-to-b from-white to-secondary/30 pt-32 pb-20 lg:pt-40 lg:pb-32">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative bg-gradient-to-b from-white to-secondary/30 pt-20 pb-20 lg:pt-24 lg:pb-32">
+      <div className="container mx-auto px-8 sm:px-10 lg:px-4 max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
+          <div className="space-y-8 text-center lg:text-left">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-navy leading-tight">
                 Discreet Relief.
                 <br />
                 <span className="text-primary">Reimagined.</span>
               </h1>
-              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-lg">
+              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0">
                 Premium chewing gum delivering fast-acting throat relief that fits seamlessly into your lifestyle.
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col gap-4 justify-center lg:justify-start">
               <Link href="/product-information" scroll={true}>
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-full sm:w-auto">
                   <ArrowRight className="mr-2 h-5 w-5" />
                   View Product Details
                 </Button>
@@ -30,15 +30,14 @@ export function Hero() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent"
+                  className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-full sm:w-auto"
                 >
                   Contact Us
                 </Button>
               </Link>
             </div>
 
-            {/* Key stats */}
-            <div className="flex items-center gap-8 pt-4">
+            <div className="flex items-center gap-8 pt-4 justify-center lg:justify-start">
               <div className="text-center">
                 <div className="text-2xl font-bold text-navy">100%</div>
                 <div className="text-sm text-muted-foreground">Natural</div>
@@ -56,8 +55,7 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Visual */}
-          <div className="relative">
+          <div className="relative flex justify-center lg:block">
             <div className="relative bg-gradient-to-br from-primary/10 to-primary/5 rounded-3xl p-8 lg:p-12">
               <div className="aspect-square bg-white rounded-2xl clinical-shadow-lg overflow-hidden">
                 <img
@@ -67,7 +65,6 @@ export function Hero() {
                 />
               </div>
 
-              {/* Floating elements */}
               <div className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold">
                 New Formula
               </div>

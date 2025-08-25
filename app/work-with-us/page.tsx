@@ -16,12 +16,14 @@ export const metadata: Metadata = generateSEO({
 
 export default function WorkWithUsPage() {
   return (
-    <main className="min-h-screen px-6 sm:px-10 lg:px-16">
-      <DistributionHero />
-      <TradeValueProp />
-      <PartnershipSteps />
-      <PartnershipBenefits />
-      <StockistForm />
+    <main className="min-h-screen px-8 sm:px-10 lg:px-4">
+      <div className="container mx-auto max-w-7xl text-center lg:text-left">
+        <DistributionHero />
+        <TradeValueProp />
+        <PartnershipSteps />
+        <PartnershipBenefits />
+        <StockistForm />
+      </div>
     </main>
   )
 }

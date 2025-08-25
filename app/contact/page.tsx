@@ -14,11 +14,13 @@ export const metadata: Metadata = generateSEO({
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen">
-      <ContactHero />
-      <div className="grid lg:grid-cols-2 gap-12 py-20 lg:py-32 px-6 sm:px-8 lg:px-12">
-        <ContactForm />
-        <ContactInfo />
+    <main className="min-h-screen px-8 sm:px-10 lg:px-4">
+      <div className="container mx-auto max-w-7xl">
+        <ContactHero />
+        <div className="grid lg:grid-cols-2 gap-12 py-20 lg:py-32 text-center lg:text-left">
+          <ContactForm />
+          <ContactInfo />
+        </div>
       </div>
     </main>
   )
