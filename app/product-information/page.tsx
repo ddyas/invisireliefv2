@@ -17,10 +17,10 @@ export default function ProductInformationPage() {
   return (
     <>
       <StructuredData data={generateProductSchema()} />
-      <main className="min-h-screen">
+      <main className="min-h-screen px-8 sm:px-10 lg:px-4">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-b from-white to-secondary/30 pt-20 pb-20 lg:pt-24 lg:pb-32">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-4 max-w-7xl">
+          <div className="container mx-auto max-w-7xl">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8 text-center lg:text-left">
                 <div className="space-y-4">
@@ -54,7 +54,7 @@ export default function ProductInformationPage() {
 
         {/* Benefits Section */}
         <section className="py-20 bg-white">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-4 max-w-7xl">
+          <div className="container mx-auto max-w-7xl">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-6">Why Choose InvisiRelief™?</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -100,7 +100,7 @@ export default function ProductInformationPage() {
 
         {/* Ingredients Section */}
         <section className="relative bg-gradient-to-b from-white to-secondary/30 pt-20 pb-20 lg:pt-24 lg:pb-32">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-4 max-w-7xl">
+          <div className="container mx-auto max-w-7xl">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8 text-center lg:text-left">
                 <div className="space-y-4">
@@ -163,7 +163,7 @@ export default function ProductInformationPage() {
 
         {/* CTA Section */}
         <section className="py-16 bg-primary/5">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-4 max-w-7xl text-center">
+          <div className="container mx-auto max-w-7xl text-center">
             <h2 className="text-3xl font-bold text-navy mb-6">Ready to Try InvisiRelief™?</h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Get in touch to learn more about our natural throat relief chewing gum or explore partnership

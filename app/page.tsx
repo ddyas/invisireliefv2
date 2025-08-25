@@ -10,12 +10,12 @@ export default function HomePage() {
   return (
     <>
       <StructuredData data={generateProductSchema()} />
-      <main className="min-h-screen">
+      <main className="min-h-screen px-8 sm:px-10 lg:px-4">
         <Hero />
         <HowItWorks />
         <Safety />
 
-        <section className="py-16 bg-primary/5 px-8 sm:px-10 lg:px-4">
+        <section className="py-16 bg-primary/5">
           <div className="container mx-auto max-w-7xl text-center">
             <h2 className="text-3xl font-bold text-navy mb-6">Ready to Learn More?</h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">

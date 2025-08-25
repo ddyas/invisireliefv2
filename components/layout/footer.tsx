@@ -67,13 +67,13 @@ export function Footer() {
             {/* Stay Updated */}
             <div className="mt-8">
               <h3 className="font-semibold text-white mb-4">Stay Updated</h3>
-              <div className="flex gap-2">
+              <div className="flex flex-col sm:flex-row gap-2">
                 <Input
                   type="email"
                   placeholder="Enter your email"
-                  className="bg-white/10 border-white/20 text-white placeholder:text-gray-400 text-sm w-72"
+                  className="bg-white/10 border-white/20 text-white placeholder:text-gray-400 text-sm w-full sm:w-64"
                 />
-                <Button className="bg-primary hover:bg-primary/90 text-white text-sm px-4 w-full lg:w-auto">
+                <Button className="bg-primary hover:bg-primary/90 text-white text-sm px-4 w-full sm:w-auto">
                   Subscribe
                 </Button>
               </div>
