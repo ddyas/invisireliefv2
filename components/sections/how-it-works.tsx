@@ -4,18 +4,23 @@ import Image from "next/image"
 const steps = [
   {
     number: "01",
-    title: "Chew Normally",
-    description: "Simply chew like regular gum. The natural motion activates the soothing ingredient release.",
+    title: "Chew",
+    description: "Activate flavour and release of the active ingredient.",
   },
   {
     number: "02",
-    title: "Active Release",
-    description: "Natural ingredients deliver soothing relief directly through your mouth for fast absorption.",
+    title: "Park",
+    description: "Mould the gum against the area of discomfort.",
   },
   {
     number: "03",
-    title: "Fast Relief",
-    description: "Experience targeted throat and mouth relief within minutes, like throat lozenges but more discreet.",
+    title: "Relieve",
+    description: "Alternate chewing and parking to maintain effect.",
+  },
+  {
+    number: "04",
+    title: "Repeat",
+    description: "Repeat as required for continued relief.",
   },
 ]
 
@@ -26,12 +31,13 @@ export function HowItWorks() {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-navy mb-6">How It Works</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Our innovative chewing gum makes throat relief as simple and discreet as chewing gum.
+            Our innovative medicated chewing gum uses a unique chew-and-park delivery system for targeted oral pain
+            relief.
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 md:gap-4">
+          <div className="grid md:grid-cols-4 gap-8 md:gap-4">
             {steps.map((step, index) => (
               <div key={index} className="relative">
                 <div className="text-center">

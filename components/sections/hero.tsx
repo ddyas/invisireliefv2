@@ -15,7 +15,9 @@ export function Hero() {
                 <span className="text-primary">Reimagined.</span>
               </h1>
               <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0">
-                Premium chewing gum delivering fast-acting throat relief that fits seamlessly into your lifestyle.
+                Discreet pharmaceutical gum for targeted oral pain relief. A medicated chewing gum designed to deliver
+                rapid, localised comfort for oral and orthodontic discomfort through a unique chew-and-park delivery
+                system.
               </p>
             </div>
 
@@ -23,16 +25,16 @@ export function Hero() {
               <Link href="/product-information" scroll={true}>
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-full lg:w-auto">
                   <ArrowRight className="mr-2 h-5 w-5" />
-                  View Product Details
+                  Join the Waitlist
                 </Button>
               </Link>
-              <Link href="/contact" scroll={true}>
+              <Link href="/work-with-us" scroll={true}>
                 <Button
                   variant="outline"
                   size="lg"
                   className="border-navy text-navy hover:bg-navy hover:text-white bg-transparent w-full lg:w-auto"
                 >
-                  Contact Us
+                  For Clinicians & Partners
                 </Button>
               </Link>
             </div>
