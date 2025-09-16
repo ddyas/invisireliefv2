@@ -82,7 +82,7 @@ export function ContactForm() {
   }
 
   return (
-    <div className="container mx-auto px-10 sm:px-12 lg:px-4">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-4">
       <Card className="border-0 clinical-shadow-lg">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-navy text-center sm:text-left">Send us a Message</CardTitle>

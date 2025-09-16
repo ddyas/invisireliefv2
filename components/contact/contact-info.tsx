@@ -24,7 +24,7 @@ const contactDetails = [
 
 export function ContactInfo() {
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-4 space-y-8">
       {/* Contact details */}
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-navy">Contact Information</h2>
