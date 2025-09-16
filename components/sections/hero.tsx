@@ -5,9 +5,9 @@ import Link from "next/link"
 export function Hero() {
   return (
     <section className="relative bg-gradient-to-b from-white to-secondary/30 pt-20 pb-20 lg:pt-24 lg:pb-32">
-      <div className="container mx-auto px-3 sm:px-4 lg:px-4 max-w-7xl">
+      <div className="container mx-auto px-0 sm:px-4 lg:px-4 max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 text-center lg:text-left">
+          <div className="space-y-8 text-center lg:text-left px-4 lg:px-0">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-navy leading-tight">
                 Discreet Relief.
@@ -57,7 +57,7 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="relative flex justify-center lg:block">
+          <div className="relative flex justify-center lg:block px-4 lg:px-0">
             <div className="relative bg-gradient-to-br from-primary/10 to-primary/5 rounded-3xl p-8 lg:p-12">
               <div className="aspect-square bg-white rounded-2xl clinical-shadow-lg overflow-hidden">
                 <img
