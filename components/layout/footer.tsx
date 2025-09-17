@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from "lucide-react"
+import { Mail, MapPin, Linkedin, Twitter, Facebook } from "lucide-react"
 import Image from "next/image"
 
 const footerLinks = {
@@ -35,7 +35,7 @@ export function Footer() {
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center">
               <Image
-                src="/images/invisirelief-logo-transparent.png"
+                src="/images/invisirelief-logo-full.png"
                 alt="InvisiRelief™"
                 width={240}
                 height={60}
@@ -55,12 +55,11 @@ export function Footer() {
                 <span>hello@invisirelief.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-gray-300">
-                <Phone className="w-4 h-4 text-primary" />
-                <span>1800 RELIEF</span>
+                <MapPin className="w-4 h-4 text-primary" />
+                <span>Adelaide, South Australia</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-gray-300">
-                <MapPin className="w-4 h-4 text-primary" />
-                <span>Melbourne, VIC 3000, Australia</span>
+                <span className="text-xs">SaunLab Pty Ltd (ABN: 48 690 560 206)</span>
               </div>
             </div>
 

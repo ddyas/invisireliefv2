@@ -4,6 +4,8 @@ import { generateSEO, generateProductSchema } from "@/lib/seo"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Eye, Zap, Smartphone } from "lucide-react"
 import Link from "next/link"
+import { ScientificBasis } from "@/components/product/scientific-basis"
+import { DevelopmentRoadmap } from "@/components/product/development-roadmap"
 
 export const metadata: Metadata = generateSEO({
   title: "Product Information",
@@ -103,6 +105,13 @@ export default function ProductInformationPage() {
           </div>
         </section>
 
+        {/* Scientific Basis Section */}
+        <section className="py-20 bg-white">
+          <div className="container mx-auto max-w-7xl">
+            <ScientificBasis />
+          </div>
+        </section>
+
         {/* Ingredients Section */}
         <section className="relative bg-gradient-to-b from-white to-secondary/30 pt-20 pb-20 lg:pt-24 lg:pb-32">
           <div className="container mx-auto max-w-7xl">
@@ -167,6 +176,13 @@ export default function ProductInformationPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Development Roadmap Section */}
+        <section className="py-20 bg-white">
+          <div className="container mx-auto max-w-7xl">
+            <DevelopmentRoadmap />
           </div>
         </section>
 

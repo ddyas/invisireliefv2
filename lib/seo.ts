@@ -93,9 +93,9 @@ export function generateOrganizationSchema() {
     },
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Melbourne",
-      addressRegion: "VIC",
-      postalCode: "3000",
+      addressLocality: "Adelaide",
+      addressRegion: "SA",
+      postalCode: "",
       addressCountry: "AU",
     },
     sameAs: ["https://linkedin.com/company/invisirelief", "https://twitter.com/invisirelief"],

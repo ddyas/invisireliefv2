@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Phone, Mail, Clock } from "lucide-react"
+import { Mail, Clock, MapPin } from "lucide-react"
 
 const contactDetails = [
   {
@@ -9,16 +9,16 @@ const contactDetails = [
     note: "Response within 24 hours",
   },
   {
-    icon: Phone,
-    title: "Call Us",
-    details: ["1800 RELIEF", "+61 (0) 1800 735 433"],
-    note: "Mon-Fri, 9AM-5PM AEST",
-  },
-  {
     icon: Clock,
     title: "Business Hours",
     details: ["Monday - Friday: 9:00 AM - 5:00 PM", "Saturday - Sunday: Closed"],
     note: "AEST (Australian Eastern Standard Time)",
+  },
+  {
+    icon: MapPin,
+    title: "Location",
+    details: ["Adelaide, South Australia", "SaunLab Pty Ltd (ABN: 48 690 560 206)"],
+    note: "Australia",
   },
 ]
 
