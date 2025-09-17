@@ -76,10 +76,10 @@ export function DistributionHero() {
               </div>
 
               {/* Floating elements */}
-              <div className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold">
+              <div className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold hidden sm:block">
                 Partnership Program
               </div>
-              <div className="absolute -bottom-4 -left-4 bg-navy text-white px-4 py-2 rounded-full text-sm font-semibold">
+              <div className="absolute -bottom-4 -left-4 bg-navy text-white px-4 py-2 rounded-full text-sm font-semibold hidden sm:block">
                 Proven Success
               </div>
             </div>
