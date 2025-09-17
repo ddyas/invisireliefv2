@@ -66,13 +66,6 @@ export function Hero() {
                   className="w-full h-full object-cover"
                 />
               </div>
-
-              <div className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold hidden sm:block">
-                New Formula
-              </div>
-              <div className="absolute -bottom-4 -left-4 bg-navy text-white px-4 py-2 rounded-full text-sm font-semibold hidden sm:block">
-                Natural Relief
-              </div>
             </div>
           </div>
         </div>

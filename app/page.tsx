@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <>
       <StructuredData data={generateProductSchema()} />
-      <main className="min-h-screen px-8 sm:px-10 lg:px-4">
+      <main className="min-h-screen">
         <div className="container mx-auto max-w-7xl text-center lg:text-left">
           <Hero />
           <HowItWorks />
