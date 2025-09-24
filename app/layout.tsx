@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   creator: "InvisiRelief",
   publisher: "InvisiRelief",
   robots: "index, follow",
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     type: "website",
     locale: "en_AU",
